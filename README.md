@@ -520,6 +520,8 @@ We officially thank the following contributors for their help in making this rep
 - [krisnasantosa15](https://github.com/krisnasantosa15)
 - [zebbern](https://github.com/zebbern)
 - [vuth-dogo](https://github.com/vuth-dogo)
+- [Takura](https://github.com/taksrules)
+- [rafy](https://github.com/raeef1001)
 
 ## Star History
 
