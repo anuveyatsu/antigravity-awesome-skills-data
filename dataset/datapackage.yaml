@@ -1,0 +1,42 @@
+name: antigravity-skills
+title: Antigravity Awesome Skills
+description: A curated catalog of skills for various LLMs and AI agents, extracted from the antigravity-awesome-skills repository.
+version: 1.0.0
+licenses:
+  - name: CC0-1.0
+    path: https://creativecommons.org/publicdomain/zero/1.0/
+    title: CC0 1.0 Universal
+resources:
+  - name: skills
+    path: skills.csv
+    format: csv
+    mediaType: text/csv
+    schema:
+      fields:
+        - name: id
+          type: string
+          description: Unique identifier for the skill.
+        - name: name
+          type: string
+          description: Human-readable name of the skill.
+        - name: description
+          type: string
+          description: detailed description of what the skill does.
+        - name: category
+          type: string
+          description: Category of the skill (e.g., coding, writing).
+        - name: risk
+          type: string
+          description: Risk level associated with the skill.
+        - name: source
+          type: string
+          description: Source of the skill definition.
+        - name: path
+          type: string
+          description: File path to the skill definition in the source repository.
+        - name: tags
+          type: string
+          description: Comma-separated list of tags associated with the skill.
+        - name: triggers
+          type: string
+          description: Comma-separated list of trigger keywords for the skill.
